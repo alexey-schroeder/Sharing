@@ -22,8 +22,8 @@ public abstract class Vehicle {
     protected int wheelNumber;
     protected Date manufactureYear;
 
-    @OneToOne
-    protected Engine engine;
+    @ManyToOne
+    protected EngineType engineType;
 
     @ManyToOne
     protected Producer producer;

@@ -10,14 +10,14 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class Engine {
+public class EngineType {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     enum Type {
-        BENZIN, DISEL, ELECTRO
+        GAS, DIESEL, ELECTRO
     }
 
     @Enumerated(EnumType.STRING)

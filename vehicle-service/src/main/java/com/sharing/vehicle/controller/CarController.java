@@ -1,7 +1,7 @@
-package com.sharing.controller;
+package com.sharing.vehicle.controller;
 
-import com.sharing.domain.Car;
-import com.sharing.service.car.CarService;
+import com.sharing.vehicle.domain.Car;
+import com.sharing.vehicle.service.car.CarService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;
@@ -9,21 +9,22 @@ import javax.validation.Valid;
 import java.util.List;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 
 @RestController
+@RequestMapping("cars")
 public class CarController {
 
     @Inject
     private CarService carService;
 
-    @RequestMapping(path = "car/{id}", method = RequestMethod.GET)
+    @RequestMapping(path = "{id}", method = RequestMethod.GET)
     public Car findCarById(@PathVariable long id){
         return carService.findById(id);
     }
 
-    @RequestMapping(path = "cars", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public List<Car> getAllCars(){
         return carService.findAll();
     }

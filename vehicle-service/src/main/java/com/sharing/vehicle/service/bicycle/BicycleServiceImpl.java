@@ -1,14 +1,14 @@
-package com.sharing.service.bicycle;
+package com.sharing.vehicle.service.bicycle;
 
-import com.sharing.domain.Bicycle;
-import com.sharing.repository.BicycleRepository;
+import com.sharing.vehicle.domain.Bicycle;
+import com.sharing.vehicle.repository.BicycleRepository;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
 import java.util.List;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 
 @Service

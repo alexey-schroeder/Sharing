@@ -1,11 +1,11 @@
-package com.sharing.service.car;
+package com.sharing.vehicle.service.car;
 
-import com.sharing.domain.Car;
+import com.sharing.vehicle.domain.Car;
 
 import java.util.List;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 public interface CarService {
 

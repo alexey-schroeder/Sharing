@@ -1,4 +1,4 @@
-package com.sharing.domain;
+package com.sharing.vehicle.domain;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 
 @Data

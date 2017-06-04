@@ -1,14 +1,14 @@
-package com.sharing.service.car;
+package com.sharing.vehicle.service.car;
 
-import com.sharing.domain.Car;
-import com.sharing.repository.CarRepository;
+import com.sharing.vehicle.domain.Car;
+import com.sharing.vehicle.repository.CarRepository;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
 import java.util.List;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 @Service
 public class CarServiceImpl implements CarService {

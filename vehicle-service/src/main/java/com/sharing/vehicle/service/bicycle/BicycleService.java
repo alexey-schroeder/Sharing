@@ -1,11 +1,11 @@
-package com.sharing.service.bicycle;
+package com.sharing.vehicle.service.bicycle;
 
-import com.sharing.domain.Bicycle;
+import com.sharing.vehicle.domain.Bicycle;
 
 import java.util.List;
 
 /**
- * Created by aschroeder on 10.04.2017.
+ * Created by Alexey Schröder on 10.04.2017.
  */
 public interface BicycleService {
 

@@ -1,11 +1,11 @@
-package com.sharing.domain;
+package com.sharing.vehicle.domain;
 
 import lombok.Data;
 
 import javax.persistence.*;
 
 /**
- * Created by aschroeder on 05.04.2017.
+ * Created by Alexey Schröder on 05.04.2017.
  */
 
 @Entity
